@@ -10,13 +10,16 @@ const Navbar = () => {
        <h4>Md Hassan</h4>
         </div>
    
-            <ul className='flex items-center gap-5 text-white'>
+            <ul className='lg:flex items-center gap-5 text-white hidden'>
                 <li ><a href="#" className='font-semibold '>Home</a></li>
                 <li><a href="#" className='font-semibold'>About</a></li>
                 <li><a href="#" className='font-semibold'>Services</a></li>
                 <li><a href="#" className='font-semibold'>Contact</a></li>
             </ul>
-     
+     <button className='lg:hidden flex flex-col cursor-pointer'onClick={()=>{alert("aaa")}} >
+      menu
+      
+     </button>
     </div>
 </div>
 </div>
